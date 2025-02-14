@@ -8,8 +8,8 @@ const PI_NUMBER = 3.14;
 // Right operand and left operand
 let result = myNum1 + myNum2; // Resolved -> 3
 
-console.log("Total result: " + result + 1); //Total result: 31
-console.log("Total: " + (result + 1)); //Total result: 4
+console.log('Total result: ' + result + 1); //Total result: 31
+console.log('Total: ' + (result + 1)); //Total result: 4
 
 //String/template/literal (`:)
 // [`]: backtick

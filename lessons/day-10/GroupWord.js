@@ -1,5 +1,5 @@
-const givenStr = "Hello ban, tui ten Uyen, ban cung ten Uyen luon a";
-let individualWords = givenStr.replace(/,/gi, "").split(" ");
+const givenStr = 'Hello ban, tui ten Uyen, ban cung ten Uyen luon a';
+let individualWords = givenStr.replace(/,/gi, '').split(' ');
 const groupWords = groupWord(individualWords);
 console.log(groupWords);
 /**
