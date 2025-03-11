@@ -22,3 +22,4 @@ class Employee {
 
 }
 
+model.exports = Employee;
