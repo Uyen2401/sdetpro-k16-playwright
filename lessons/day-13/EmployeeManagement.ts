@@ -1,5 +1,5 @@
-const Employee = require('./Employee');
-const SalaryController = require('./SalaryController');
+import { Employee } from "./Employee";
+import {SalaryController} from './SalaryController'
 
 // Create Data
 let teo = new Employee('Teo', 10000);

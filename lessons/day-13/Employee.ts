@@ -1,5 +1,8 @@
-class Employee {
-  constructor(name, salary) {
+export class Employee {
+  private _name: string;
+  private _salary: number;
+
+  constructor(name: string, salary: number) {
     this._name = name;
     this._salary = salary;
   }
@@ -13,13 +16,10 @@ class Employee {
   }
 
   get salary() {
-    return this.salary;
+    return this._salary;
   }
 
   set salary(salary) {
-    this.salary = salary;
+    this._salary = salary;
   }
-
 }
-
-model.exports = Employee;
